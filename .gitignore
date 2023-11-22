@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+__pycache__
+a.out
+opus_books_weights
+runs
+tokenzier_*.json
