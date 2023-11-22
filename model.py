@@ -249,6 +249,6 @@ def build_transformer(src_vocab_size: int, tgt_vocab_size: int, src_seq_len: int
     # Initalize the parameters
     for p in transformer.parameters():
         if p.dim() > 1:
-            nn.init.xavier_uniform(p)
+            nn.init.xavier_uniform_(p)
     
     return transformer
